@@ -4,3 +4,38 @@
     min-width: 300px;
     height: auto;
   }
+
+  .row {
+    display: flex;
+  }
+  
+  @media only screen
+    and (max-width: 800px) {
+      .row {
+        flex-direction: column;
+      }
+  }
+  
+  .column {
+    padding: 200px;
+    text-align: center;
+    flex: 10%;
+  }
+  
+  .column img {
+    border-radius: 50%;
+    width: 300px;
+    border: 2px solid white;
+  }
+  
+  .column p {
+    color: white;
+    padding-top: 50px;
+    font-size: 24px;
+  }
+  
+  .partners-h1 p {
+    font-family: "BatmanForeverAlternate";
+    font-size-adjust: 10px;
+    color: white;
+  }

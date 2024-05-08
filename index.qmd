@@ -61,6 +61,23 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
 :::
 ::::
 
+```{=html}
+<div class="row">
+  <div class="column">
+    <img src="./static/bccdc_dashboard.png">
+    <p>Sneak Energy</p>
+  </div>
+  <div class="column">
+    <img src="./static/health_infobase_dashboard.png">>
+    <p>Kontrol Freek</p>
+  </div>
+  <div class="column">
+    <img src="./static/cahspr_logo.jpg">>
+    <p>Astro Gaming</p>
+  </div>
+</div>
+```
+
 
 # Statistics Canada Efforts
 
