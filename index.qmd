@@ -12,11 +12,6 @@
 
 Canada has seen an increasing number of opioid-related harms and deaths, with an estimated 39,435 opioid-related hospitalizations and 40,642 apparent opioid toxicity deaths between January 2016 and June 2023[^1]. This is an unprecedented crisis, which the Government of Canada is tackling across a range of fronts[^2]. Policymakers dealing with the opioid crisis, at all levels of government, are faced with difficult questions about the trajectory of the epidemic, as well as questions about which policy interventions would be effective in reducing the number of deaths and overdoses (e.g. decriminalization, provision of safe injection sites, among other policies).
 
-:::: {.columns}
-
-::: {.column width="50%"}
-<!-- [![Opioid- and Stimulant-related Harms in Canada (PHAC)[^1]](./static/health_infobase_dashboard.png)](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html) -->
-
 ```{=html}
 <script>
     var images = [
@@ -53,24 +48,16 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
     <figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)</figcaption>
 </figure>
 ```
-:::
-
-::: {.column width="50%"}
-
-[![Unregulated Drug Poisoning Emergency Dashboard (BCCDC)[^3]](./static/bccdc_dashboard.png)](http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard)
-:::
-::::
 
 # Statistics Canada Efforts
 
 While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.
 
-This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan[^4], this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.
+This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan[^3], this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.
 
 [^1]: Public Health Agency of Canada: [Opioid- and Stimulant-related Harms in Canada](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/)
 [^2]: Government of Canada: [Federal actions on the overdose crisis](https://www.canada.ca/en/health-canada/services/opioids/federal-actions/overview.html)
-[^3]: BC Centre for Disease Control: [Unregulated Drug Poisoning Emergency Dashboard](http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard)
-[^4]: Statistics Canada: [Open Science Action Plan](https://www.statcan.gc.ca/en/about/osap)
+[^3]: Statistics Canada: [Open Science Action Plan](https://www.statcan.gc.ca/en/about/osap)
 
 # Approach
 

@@ -1,17 +1,6 @@
 /* css styles */
 #rotator{
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-
-  .row {
-    display: flex;
-  }
-  
-  @media only screen
-    and (max-width: 800px) {
-      .row {
-        flex-direction: column;
-      }
-  }
+  max-width: 100%;
+  min-width: 320px;
+  height: auto;
+}
