@@ -12,12 +12,10 @@
 
 Canada has seen an increasing number of opioid-related harms and deaths, with an estimated 39,435 opioid-related hospitalizations and 40,642 apparent opioid toxicity deaths between January 2016 and June 2023[^1]. This is an unprecedented crisis, which the Government of Canada is tackling across a range of fronts[^2]. Policymakers dealing with the opioid crisis, at all levels of government, are faced with difficult questions about the trajectory of the epidemic, as well as questions about which policy interventions would be effective in reducing the number of deaths and overdoses (e.g. decriminalization, provision of safe injection sites, among other policies).
 
-::: {layout="[50,50]" layout-valign="center"}
+:::: {.columns}
 
-[![Opioid- and Stimulant-related Harms in Canada (PHAC)[^1]](./static/health_infobase_dashboard.png)](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html)
-
-[![Unregulated Drug Poisoning Emergency Dashboard (BCCDC)[^3]](./static/bccdc_dashboard.png)](http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard)
-:::
+::: {.column width="50%"}
+<!-- [![Opioid- and Stimulant-related Harms in Canada (PHAC)[^1]](./static/health_infobase_dashboard.png)](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html) -->
 
 ```{=html}
 <script>
@@ -45,9 +43,25 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
 
     },2000); /*1000 = 1 sec*/
 </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<img id="rotator" src="">
+
+<figure>
+    <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html">
+        <img id="rotator" src="">
+    </a>
+    <figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)</figcaption>
+</figure>
 ```
+:::
+
+::: {.column width="50%"}
+
+[![Unregulated Drug Poisoning Emergency Dashboard (BCCDC)[^3]](./static/bccdc_dashboard.png)](http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard)
+:::
+::::
+
+
 # Statistics Canada Efforts
 
 While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.

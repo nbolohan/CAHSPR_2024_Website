@@ -174,29 +174,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-opioid-epidemic" class="level1">
 <h1>The Opioid Epidemic</h1>
 <p>Canada has seen an increasing number of opioid-related harms and deaths, with an estimated 39,435 opioid-related hospitalizations and 40,642 apparent opioid toxicity deaths between January 2016 and June 2023<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. This is an unprecedented crisis, which the Government of Canada is tackling across a range of fronts<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Policymakers dealing with the opioid crisis, at all levels of government, are faced with difficult questions about the trajectory of the epidemic, as well as questions about which policy interventions would be effective in reducing the number of deaths and overdoses (e.g.&nbsp;decriminalization, provision of safe injection sites, among other policies).</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[50,50]">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html"><img src="./static/health_infobase_dashboard.png" class="img-fluid figure-img" alt="Opioid- and Stimulant-related Harms in Canada (PHAC)"></a></p>
-<figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard"><img src="./static/bccdc_dashboard.png" class="img-fluid figure-img" alt="Unregulated Drug Poisoning Emergency Dashboard (BCCDC)"></a></p>
-<figcaption>Unregulated Drug Poisoning Emergency Dashboard (BCCDC)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<!-- [![Opioid- and Stimulant-related Harms in Canada (PHAC)[^1]](./static/health_infobase_dashboard.png)](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html) -->
 <script>
     var images = [
         "./static/rotating_banner/0.png",
@@ -222,13 +202,29 @@ ul.task-list li input[type="checkbox"] {
 
     },2000); /*1000 = 1 sec*/
 </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<img id="rotator" src="">
+
+<figure class="figure">
+    <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html">
+        <img id="rotator" src="" class="figure-img">
+    </a>
+    <figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)</figcaption>
+</figure>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard"><img src="./static/bccdc_dashboard.png" class="img-fluid figure-img" alt="Unregulated Drug Poisoning Emergency Dashboard (BCCDC)"></a></p>
+<figcaption>Unregulated Drug Poisoning Emergency Dashboard (BCCDC)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="statistics-canada-efforts" class="level1">
 <h1>Statistics Canada Efforts</h1>
 <p>While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.</p>
-<p>This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.</p>
+<p>This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.</p>
 </section>
 <section id="approach" class="level1">
 <h1>Approach</h1>
@@ -407,9 +403,8 @@ Point-of-contact interventions
 <ol>
 <li id="fn1"><p>Public Health Agency of Canada: <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/">Opioid- and Stimulant-related Harms in Canada</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Government of Canada: <a href="https://www.canada.ca/en/health-canada/services/opioids/federal-actions/overview.html">Federal actions on the overdose crisis</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Public Health Agency of Canada: <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/">Opioid- and Stimulant-related Harms in Canada</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>BC Centre for Disease Control: <a href="http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard">Unregulated Drug Poisoning Emergency Dashboard</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Statistics Canada: <a href="https://www.statcan.gc.ca/en/about/osap">Open Science Action Plan</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>BC Centre for Disease Control: <a href="http://www.bccdc.ca/health-professionals/data-reports/substance-use-harm-reduction-dashboard">Unregulated Drug Poisoning Emergency Dashboard</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Statistics Canada: <a href="https://www.statcan.gc.ca/en/about/osap">Open Science Action Plan</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
