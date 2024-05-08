@@ -1,0 +1,43 @@
+project:
+  type: website
+  resources: 
+    - "*.png"
+
+website:
+  title: "CAHSPR 2024 - Creating an open-source tool to model opioid overdoses and deaths"
+
+  navbar:
+    background: primary
+    search: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://gitlab.k8s.cloud.statcan.ca/noah.bolohan/cahspr-2024-webpage
+          - text: Report an issue
+            url:  https://gitlab.k8s.cloud.statcan.ca/noah.bolohan/cahspr-2024-webpage/-/issues/new
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Further Readings"
+        file: further_reading.qmd
+
+  page-footer: 
+    center: "Copyright 2024, Noah Bolohan"
+    border: true
+    background: light
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: ./css/styles.css
+    page-layout: full
+    grid: 
+      sidebar-width: 0px
+      body-width: 1300px
+      margin-width: 200px
+      gutter-width: 1.5rem
+    footnotes-hover: true
+    toc: true
