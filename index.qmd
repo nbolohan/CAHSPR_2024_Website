@@ -49,7 +49,7 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
 </figure>
 ```
 
-# Statistics Canada Efforts
+# Background & Context
 
 While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.
 
@@ -61,9 +61,7 @@ This project will also allow the development of analytical capacity and knowledg
 
 # Approach
 
-The objective of this project is to develop an agent-based compartmental model of opioid overdoses and deaths which leverages detailed socio-demographic and other data to simulate the frequency and locations of opioid use as well as fatality of overdoses at a sub-provincial geography (e.g., PHUs or HRs). The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses.
-
-Modelling is a powerful tool to estimate the effects of public policy options in advance of implementation. Comparative analysis of the impact of different public policies allows policymakers to chose those with the most favourable outcomes. Such analysis was undertaken through the COVID-19 pandemic to inform the implementation and impact of non-pharmaceutical interventions like lockdowns, as well as to plan the roll out of vaccination programs. Epidemiological modelling can be extended to other health problems, including the opioid epidemic. Freely available, easy to use, epidemiological tools are lacking. As well, basic demographic data for smaller geographies are hard to find for resource-poor public health departments. The development of the Opioid Policy Model aims to fill some of these gaps.
+The objective of this project is to develop a compartmental agent-based risk model which will simulate the frequency and outcomes of opioid use in a synthetic population, leveraging detailed socio-demographic and other data. The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses.
 
 # The Model
 
