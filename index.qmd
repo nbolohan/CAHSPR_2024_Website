@@ -159,3 +159,5 @@ To facilitate access to and use of this model, its development will follow an Op
 # Conclusion
 
 With the help of collaborations with local health authorities and subject matter experts, we have begun development of a tool that can support policy makers and researchers interested in investigating opioid-related harms, while simultaneously being openly available and easy to use. A focus on sub-provincial geographies and adaptability will further ensure that the model remains useful in a variety of scenarios.
+
+This website, as well as the corresponding poster, were made for CAHSPR 2024, using the open-source tool [Quarto](https://quarto.org/). The source code for this website can be found [here](https://github.com/nbolohan/CAHSPR_2024_Website), and the source code for the poster can be found [here](https://github.com/nbolohan/CAHSPR_2024_Poster).

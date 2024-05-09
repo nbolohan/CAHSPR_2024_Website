@@ -5,7 +5,7 @@ project:
     - "*.png"
 
 website:
-  title: "CAHSPR 2024 - Creating an open-source tool to model opioid overdoses and deaths"
+  title: "Creating an open-source tool to model opioid overdoses and deaths"
 
   navbar:
     background: primary
@@ -14,9 +14,9 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            url:  https://gitlab.k8s.cloud.statcan.ca/noah.bolohan/cahspr-2024-webpage
+            url:  https://github.com/nbolohan/CAHSPR_2024_Website
           - text: Report an issue
-            url:  https://gitlab.k8s.cloud.statcan.ca/noah.bolohan/cahspr-2024-webpage/-/issues/new
+            url:  https://github.com/nbolohan/CAHSPR_2024_Website/issues/new
     left:
       - text: "Home"
         file: index.qmd
