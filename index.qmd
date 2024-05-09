@@ -35,7 +35,7 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
         "./static/rotating_banner/12.png",
         "./static/rotating_banner/13.png",
     ]
-    var current = 0;
+    var current = 1;
     setInterval(function(){
                 
     $('#rotator').attr('src', images[current]);
@@ -48,7 +48,7 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
 
 <figure>
     <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/maps.html">
-        <img id="rotator" src="">
+        <img id="rotator" src="./static/rotating_banner/0.png">
     </a>
     <figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)</figcaption>
 </figure>
