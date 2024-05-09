@@ -13,6 +13,11 @@
 Canada has seen an increasing number of opioid-related harms and deaths, with an estimated 39,435 opioid-related hospitalizations and 40,642 apparent opioid toxicity deaths between January 2016 and June 2023[^1]. This is an unprecedented crisis, which the Government of Canada is tackling across a range of fronts[^2]. Policymakers dealing with the opioid crisis, at all levels of government, are faced with difficult questions about the trajectory of the epidemic, as well as questions about which policy interventions would be effective in reducing the number of deaths and overdoses (e.g. decriminalization, provision of safe injection sites, among other policies).
 
 ```{=html}
+
+<!--
+    Taken from SE:
+    https://stackoverflow.com/questions/35113473/how-do-i-change-image-every-2-second-using-jquery 
+-->
 <script>
     var images = [
         "./static/rotating_banner/0.png",
