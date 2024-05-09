@@ -218,14 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Approach</h1>
 <p>The objective of this project is to develop an agent-based compartmental model of opioid overdoses and deaths which leverages detailed socio-demographic and other data to simulate the frequency and locations of opioid use as well as fatality of overdoses at a sub-provincial geography (e.g., PHUs or HRs). The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses.</p>
 <p>Modelling is a powerful tool to estimate the effects of public policy options in advance of implementation. Comparative analysis of the impact of different public policies allows policymakers to chose those with the most favourable outcomes. Such analysis was undertaken through the COVID-19 pandemic to inform the implementation and impact of non-pharmaceutical interventions like lockdowns, as well as to plan the roll out of vaccination programs. Epidemiological modelling can be extended to other health problems, including the opioid epidemic. Freely available, easy to use, epidemiological tools are lacking. As well, basic demographic data for smaller geographies are hard to find for resource-poor public health departments. The development of the Opioid Policy Model aims to fill some of these gaps.</p>
-<div class="columns">
-
-</div>
-<div class="column" style="width:10%;">
-<!-- Blank column for spacing -->
-</div>
 </section>
-<div class="column" style="width:61.4%;">
 <section id="the-model" class="level1">
 <h1>The Model</h1>
 <p>A synthetic population is generated using the socio-demographic profile of the geographic region. The model includes two compartmental layers for its agents, as well a set of events that may occur:</p>
@@ -234,10 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Opioid use locations:</strong> the location in which they are currently using opioids</li>
 <li><strong>Events:</strong> The flow of agents through the previous two compartmental layers, as well as outcomes of opioid use, may be impacted by time-based events. These events can apply to a specific individual or the population as a whole</li>
 </ul>
-<p>Compartment transition and opioid use outcome probabilities are governed by risk models, which are parametrized nationally. They are also subject to local multipliers which are derived from specific geographies / populations.</p>
-</section>
-</div>
-<div class="column" style="width:28.6%;">
+<p>Compartment transition and opioid use outcome probabilities are governed by risk models, which are parametrized nationally. They are also subject to local multipliers which are derived from specific geographies and populations.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">States</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Locations</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Events</a></li></ul>
 <div class="tab-content">
@@ -298,11 +288,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-</div>
+</section>
 <section id="interventions" class="level1">
 <h1>Interventions</h1>
 <p>A key feature of a modeling approach is the ability to study counter-factual scenarios via variable opioid interventions. For example, the model can simulate the effects of:</p>
-<div class="column" style="width:40%;">
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -335,11 +324,6 @@ Opioid prescription reduction
 </div>
 </div>
 </div>
-</div>
-<div class="column" style="width:10%;">
-<!-- Blank column for spacing -->
-</div>
-<div class="column" style="width:40%;">
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -369,7 +353,6 @@ Point-of-contact interventions
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>This intervention represents a broad class of interventions which may occur when an opioid-using actor comes into contact with the public health system. For example, visits to the hospital, emergency room/depertment, prison, or supervised safe consumption sites.</p>
-</div>
 </div>
 </div>
 </div>
