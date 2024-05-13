@@ -134,11 +134,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#the-opioid-epidemic" id="toc-the-opioid-epidemic" class="nav-link active" data-scroll-target="#the-opioid-epidemic">The Opioid Epidemic</a></li>
-  <li><a href="#background-context" id="toc-background-context" class="nav-link" data-scroll-target="#background-context">Background &amp; Context</a></li>
+  <li><a href="#background-and-context" id="toc-background-and-context" class="nav-link" data-scroll-target="#background-and-context">Background and context</a></li>
   <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
   <li><a href="#the-model" id="toc-the-model" class="nav-link" data-scroll-target="#the-model">The Model</a></li>
   <li><a href="#interventions" id="toc-interventions" class="nav-link" data-scroll-target="#interventions">Interventions</a></li>
-  <li><a href="#open-science" id="toc-open-science" class="nav-link" data-scroll-target="#open-science">Open Science</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -214,14 +213,13 @@ ul.task-list li input[type="checkbox"] {
     <figcaption>Opioid- and Stimulant-related Harms in Canada (PHAC)</figcaption>
 </figure>
 </section>
-<section id="background-context" class="level1">
-<h1>Background &amp; Context</h1>
-<p>While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.</p>
-<p>This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.</p>
+<section id="background-and-context" class="level1">
+<h1>Background and context</h1>
+<p>While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling chronic disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This study begins to allow the development of general models that could be used as tools by local level policymakers to project near-term outcomes and to compare alternative policy options. As well as modelling, Statistics Canada researchers have leveraged survey data, health administrative data and linked data to shed light on patterns of problematic opioid use<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and hospitalizations for opioid poisonings<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. In addition, through specific collaborations in BC<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> and Ontario<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, Statistics Canada has created data linkages with local level data that has contributed to understanding opioid overdoes and deaths at lower geographic levels.</p>
 </section>
 <section id="approach" class="level1">
 <h1>Approach</h1>
-<p>The objective of this project is to develop a compartmental agent-based risk model which will simulate the frequency and outcomes of opioid use in a synthetic population, leveraging detailed socio-demographic and other data. The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses.</p>
+<p>The objective of this project is to develop a compartmental agent-based risk model which will simulate the frequency and outcomes of opioid use in a synthetic population, leveraging detailed socio-demographic and other data. The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses. Model development will follow an open science approach<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> for research and dissemination. The code will be written in Python, including a user interface and released as an open-source</p>
 </section>
 <section id="the-model" class="level1">
 <h1>The Model</h1>
@@ -361,10 +359,6 @@ Point-of-contact interventions
 </div>
 </div>
 </section>
-<section id="open-science" class="level1">
-<h1>Open Science</h1>
-<p>To facilitate access to and use of this model, its development will follow an Open Science approach; this implies transparency and accessibility at all stages of the project allowing for recommendations and criticisms from contributors at any point in the model’s existence. The data used to parameterize the model will come from open Statistics Canada data or publicly available estimates that can serve as model input parameters. These disparate data sources will be assembled and curated for use in the Opioid Policy Model. The model will be written in the open-source programming language Python, with supporting documentation written in markdown files. The use of an open-source language for model development will make it accessible to any user who wishes to use and contribute to the model. Within Python, there are also capacities to create web-based applications from which users can run the model, for example with the Dash package. The proposed model will be made available as standalone set of Python scripts to run in any Integrated Development Environment (IDE), as well as a web-based application which will facilitate the use and customizability of the model for users who do not wish to work within an IDE (e.g., non-technical users). Both the model scripts and documentation will be published internally on the Statistics Canada GitLab server, and externally on the Statistics Canada GitHub server. In these locations, users and collaborators will be able to download the model, make suggestions and share ideas for future model development.</p>
-</section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
 <p>With the help of collaborations with local health authorities and subject matter experts, we have begun development of a tool that can support policy makers and researchers interested in investigating opioid-related harms, while simultaneously being openly available and easy to use. A focus on sub-provincial geographies and adaptability will further ensure that the model remains useful in a variety of scenarios.</p>
@@ -379,7 +373,11 @@ Point-of-contact interventions
 <ol>
 <li id="fn1"><p>Public Health Agency of Canada: <a href="https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/">Opioid- and Stimulant-related Harms in Canada</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Government of Canada: <a href="https://www.canada.ca/en/health-canada/services/opioids/federal-actions/overview.html">Federal actions on the overdose crisis</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Statistics Canada: <a href="https://www.statcan.gc.ca/en/about/osap">Open Science Action Plan</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Statistics Canada: <a href="https://www150.statcan.gc.ca/n1/pub/82-003-x/2021012/article/00002-eng.htm">Significant factors associated with problematic use of opioid pain relief medications among the household population, Canada, 2018</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Statistics Canada: <a href="https://www150.statcan.gc.ca/n1/pub/82-003-x/2018010/article/00002-eng.htm">Social and economic characteristics of those experiencing hospitalizations due to opioid poisonings</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Statistics Canada: <a href="https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2021003-eng.htm">Statistics Canada British Columbia Opioid Overdose Analytical File: Technical Report</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Statistics Canada: <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/210715/dq210715b-eng.htm">Study: Understanding opioid overdoses in Simcoe Muskoka, Ontario, 2018 and 2019</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Statistics Canada: <a href="https://www.statcan.gc.ca/en/about/osap">Open Science Action Plan</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

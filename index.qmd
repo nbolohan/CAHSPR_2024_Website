@@ -54,19 +54,14 @@ Canada has seen an increasing number of opioid-related harms and deaths, with an
 </figure>
 ```
 
-# Background & Context
+# Background and context
 
-While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This project will allow the development of general techniques and models that could be used as tools by local level policymakers to project near-term outcomes and to compare and contrast alternative policy options.
-
-This project will also allow the development of analytical capacity and knowledge in disease modelling at Statistics Canada and externally. The COVID-19 pandemic brought about unprecedented demand for disease modelling knowledge and services within the Federal Government and shed light on a significant gap in modelling capacity and knowledge within the Federal Public Service. Statistics Canada and HAD, in particular, has the opportunity to begin to fill this gap by expanding on the modelling services we provide, including but not limited to, expanding on the types of models we create and support, growing modelling teams that can provide technical and consultation services, and publishing innovative and user-centric visualizations or interfaces for model results. In line with the Statistics Canada Open Science Action plan[^3], this model code and documentation will be shared externally for use by policymakers and public health practitioners, giving them access to data and innovative tools for decision making.
-
-[^1]: Public Health Agency of Canada: [Opioid- and Stimulant-related Harms in Canada](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/)
-[^2]: Government of Canada: [Federal actions on the overdose crisis](https://www.canada.ca/en/health-canada/services/opioids/federal-actions/overview.html)
-[^3]: Statistics Canada: [Open Science Action Plan](https://www.statcan.gc.ca/en/about/osap)
+While Statistics Canada, specifically the Health Analysis Division (HAD), has been involved in modelling chronic disease outcomes for many years, previous models have concentrated on a national or provincial picture. Both the COVID-19 pandemic and the opioid crisis have demonstrated that policy making and prevention efforts in smaller geographic areas, for instance Public Health Units (PHUs) or Health Regions (HRs) are essential to target those at risk and prevent adverse outcomes. This study begins to allow the development of general models that could be used as tools by local level policymakers to project near-term outcomes and to compare alternative policy options.
+As well as modelling, Statistics Canada researchers have leveraged survey data, health administrative data and linked data to shed light on patterns of problematic opioid use[^3] and hospitalizations for opioid poisonings[^4]. In addition, through specific collaborations in BC[^5] and Ontario[^6], Statistics Canada has created data linkages with local level data that has contributed to understanding opioid overdoes and deaths at lower geographic levels.
 
 # Approach
 
-The objective of this project is to develop a compartmental agent-based risk model which will simulate the frequency and outcomes of opioid use in a synthetic population, leveraging detailed socio-demographic and other data. The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses.
+The objective of this project is to develop a compartmental agent-based risk model which will simulate the frequency and outcomes of opioid use in a synthetic population, leveraging detailed socio-demographic and other data. The model will include functionality that allows for the application of policies and interventions to model agents in order to determine their impacts in counter-factual or ‘what-if’ scenarios. This functionality allows the model to serve as an analytical tool for policymakers to obtain future projections and compare and contrast policy responses. Model development will follow an open science approach[^7] for research and dissemination. The code will be written in Python, including a user interface and released as an open-source 
 
 # The Model
 
@@ -156,13 +151,16 @@ Affects the rate at which Opioid Agonist Therapy (OAT) is prescribed.
 This intervention represents a broad class of interventions which may occur when an opioid-using actor comes into contact with the public health system. For example, visits to the hospital, emergency room/depertment, prison, or supervised safe consumption sites.
 :::
 
-# Open Science
-
-To facilitate access to and use of this model, its development will follow an Open Science approach; this implies transparency and accessibility at all stages of the project allowing for recommendations and criticisms from contributors at any point in the model’s existence. The data used to parameterize the model will come from open Statistics Canada data or publicly available estimates that can serve as model input parameters. These disparate data sources will be assembled and curated for use in the Opioid Policy Model. The model will be written in the open-source programming language Python, with supporting documentation written in markdown files. The use of an open-source language for model development will make it accessible to any user who wishes to use and contribute to the model. Within Python, there are also capacities to create web-based applications from which users can run the model, for example with the Dash package. The proposed model will be made available as standalone set of Python scripts to run in any Integrated Development Environment (IDE), as well as a web-based application which will facilitate the use and customizability of the model for users who do not wish to work within an IDE (e.g., non-technical users). Both the model scripts and documentation will be published internally on the Statistics Canada GitLab server, and externally on the Statistics Canada GitHub server. In these locations, users and collaborators will be able to download the model, make suggestions and share ideas for future model development. 
-
-
 # Conclusion
 
 With the help of collaborations with local health authorities and subject matter experts, we have begun development of a tool that can support policy makers and researchers interested in investigating opioid-related harms, while simultaneously being openly available and easy to use. A focus on sub-provincial geographies and adaptability will further ensure that the model remains useful in a variety of scenarios.
 
 This website, as well as the corresponding poster, were made for CAHSPR 2024, using the open-source tool [Quarto](https://quarto.org/). The source code for this website can be found [here](https://github.com/nbolohan/CAHSPR_2024_Website), and the source code for the poster can be found [here](https://github.com/nbolohan/CAHSPR_2024_Poster).
+
+[^1]: Public Health Agency of Canada: [Opioid- and Stimulant-related Harms in Canada](https://health-infobase.canada.ca/substance-related-harms/opioids-stimulants/)
+[^2]: Government of Canada: [Federal actions on the overdose crisis](https://www.canada.ca/en/health-canada/services/opioids/federal-actions/overview.html)
+[^3]: Statistics Canada: [Significant factors associated with problematic use of opioid pain relief medications among the household population, Canada, 2018](https://www150.statcan.gc.ca/n1/pub/82-003-x/2021012/article/00002-eng.htm)
+[^4]: Statistics Canada: [Social and economic characteristics of those experiencing hospitalizations due to opioid poisonings](https://www150.statcan.gc.ca/n1/pub/82-003-x/2018010/article/00002-eng.htm)
+[^5]: Statistics Canada: [Statistics Canada British Columbia Opioid Overdose Analytical File: Technical Report](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2021003-eng.htm)
+[^6]: Statistics Canada: [Study: Understanding opioid overdoses in Simcoe Muskoka, Ontario, 2018 and 2019](https://www150.statcan.gc.ca/n1/daily-quotidien/210715/dq210715b-eng.htm)
+[^7]: Statistics Canada: [Open Science Action Plan](https://www.statcan.gc.ca/en/about/osap)
